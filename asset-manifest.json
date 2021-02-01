@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolioMobile/static/css/main.dc0e0c83.chunk.css",
-    "main.js": "/portfolioMobile/static/js/main.1cedf48b.chunk.js",
-    "main.js.map": "/portfolioMobile/static/js/main.1cedf48b.chunk.js.map",
+    "main.js": "/portfolioMobile/static/js/main.499cc967.chunk.js",
+    "main.js.map": "/portfolioMobile/static/js/main.499cc967.chunk.js.map",
     "runtime-main.js": "/portfolioMobile/static/js/runtime-main.607ac2bc.js",
     "runtime-main.js.map": "/portfolioMobile/static/js/runtime-main.607ac2bc.js.map",
     "static/css/2.36234020.chunk.css": "/portfolioMobile/static/css/2.36234020.chunk.css",
@@ -37,7 +37,6 @@
     "static/media/back2.15935027.jpg": "/portfolioMobile/static/media/back2.15935027.jpg",
     "static/media/career.8647f74e.png": "/portfolioMobile/static/media/career.8647f74e.png",
     "static/media/intro.94a7f159.png": "/portfolioMobile/static/media/intro.94a7f159.png",
-    "static/media/mabinogi.c1bd67e2.png": "/portfolioMobile/static/media/mabinogi.c1bd67e2.png",
     "static/media/thumb.22ca90c5.png": "/portfolioMobile/static/media/thumb.22ca90c5.png",
     "static/media/thumb.aebec05d.png": "/portfolioMobile/static/media/thumb.aebec05d.png"
   },
@@ -46,6 +45,6 @@
     "static/css/2.36234020.chunk.css",
     "static/js/2.9ec3962f.chunk.js",
     "static/css/main.dc0e0c83.chunk.css",
-    "static/js/main.1cedf48b.chunk.js"
+    "static/js/main.499cc967.chunk.js"
   ]
 }
