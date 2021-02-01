@@ -1,0 +1,100 @@
+.Career {
+    height: 100%;
+    position: absolute;
+    top: 25vh;
+
+}
+
+.background {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.layout {
+    height: 46%;
+    width: auto;
+    padding: 1% 1% 1% 1%;
+}
+
+.content {
+    height: 90%;
+    display: flex;
+}
+
+.web {
+
+    background-color: rgb(231, 231, 231);
+    // background-color: rgb(238, 243, 255);
+
+}
+
+.mobile {
+    background-color: rgb(231, 231, 231);
+    // background-color: rgb(238, 255, 242);
+}
+
+.graph {
+    width: 33.3%;
+    height: auto;
+    margin: 1%;
+    padding: 1% 0% 0% 0%;
+}
+
+.portfoilo {
+    width: 22.2%;
+    height: auto;
+    margin: 1%;
+    background-color: blue;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0px 0px 1.5px rgb(37, 37, 37);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.graphTitle {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title {
+    height: auto;
+    width: fit-content;
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+    padding: 0px 10px 0px 10px;
+    background-color: black;
+}
+
+@media all and (max-width: 1000px) {
+    .Career {
+        height: 100%;
+        position: absolute;
+        top: 10vh;
+    
+    }
+    .layout {
+        height: 80%;
+        width: auto;
+        padding: 1% 1% 1% 1%;
+        overflow-y: scroll;
+    }
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .graph, .portfoilo{
+        min-height: 300px !important;
+        width: 100% !important;
+    }
+    
+}

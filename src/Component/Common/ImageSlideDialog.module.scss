@@ -1,0 +1,47 @@
+.ImageSlideDialog .swiper-slide {
+    text-align: center !important;
+}
+
+.webImage {
+    width: 90%;
+    margin: 30px 0px 30px 0px;
+    padding: 0px 5% 0px 5%;
+}
+
+
+.mobileImage {
+    max-height: 600px;
+    margin: 30px 0px 30px 0px;
+    padding: 0px 5% 0px 5%;
+    text-align: center;
+}
+
+.swiper-slide {
+    text-align: center;
+}
+
+.descrition {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 1px;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+@media all and (max-width: 1000px) {
+    .webImage {
+    }
+    
+    
+    .mobileImage {
+        max-height: 400px;
+    }
+}
+

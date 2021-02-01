@@ -1,0 +1,13 @@
+.swiper-scrollbar {
+    position: absolute !important;
+    bottom: 1px !important;
+}
+
+.swiper-container {
+  height: 100vh;
+}
+@media all and (max-width: 1000px) {
+  .ImageSlideDialog  .swiper-container{
+    height: 50vh !important;
+  }
+}

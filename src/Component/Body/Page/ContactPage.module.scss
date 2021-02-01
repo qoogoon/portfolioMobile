@@ -1,0 +1,26 @@
+.layout {
+    background-color: rgb(231, 231, 231);
+    // background-color: gray;
+    // display: table;
+    // flex-wrap: wrap;
+    // flex-direction: row;
+    // height: 100%;
+    // width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.contact {
+    display: table-column;
+    width: 100% !important;
+    color: rgb(82, 84, 175);
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.email {
+    display: table-column;
+    width: 100%;
+}

@@ -1,0 +1,173 @@
+.intro {
+    display: flex ;
+    height: 100vh;
+}
+
+
+/* title */
+.intro>.title {
+    width: 40%;
+    height: 100%;
+    text-align: left;
+}
+
+.intro>.title>img {
+    height: 100vh;
+    object-fit: cover;
+    width: 100%;
+    justify-content: center;
+    box-shadow: 0px 0px 10px black;
+}
+
+.intro>.title>.text>div {
+    position: relative;
+    bottom: 250px;
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.intro>.title {
+    left: 50vh;
+    color: rgb(207, 207, 207);
+}
+
+
+/* summary */
+.intro>.summary {
+    width: 60%;
+    // background-color: rgb(228, 228, 228);
+    background-color: rgb(231, 231, 231);
+    /* height: 100vh; */
+    /* margin-right: 50px; */
+}
+
+.intro>.summary .about {
+    align-items: center;
+    display: inline-block;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.intro>.summary .about>.text {
+    font-family: "Comic Sans";
+    font-weight: "bold";
+    font-size: 50px;
+}
+
+.intro>.summary>.about>.line {
+    height: 2px;
+    background-color: rgb(23, 112, 172);
+
+}
+
+.intro>.summary>.cards {
+    /* margin-left: 100px; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.intro>.summary>.cards>.item {
+    display: inline-block;
+    height: 200px;
+    width: 33.3%;
+    overflow: hidden;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border: 0.5px solid rgb(143, 143, 143);
+    box-shadow: 0.5px 0.5px 1.5px 1.5px rgb(221, 221, 221);
+    background-color: rgb(255, 255, 255);
+}
+
+.intro>.summary>.cards>.item>*>img {
+    height: 100px;
+}
+
+@media all and (min-width:1700px) {
+    .cards .item {
+        width: 29% !important;
+    }
+
+    /* .intro .summary .cards {
+        margin-left: 100px;
+        margin-right: 100px;
+    } */
+}
+
+@media all and (min-width: 1000px)and (max-width: 1700px) {
+    .cards .item {
+        width: 45% !important;
+    }
+
+
+}
+
+@media all and (max-width: 1000px) {
+    .cards .item {
+        width: 95% !important;
+    }
+
+    .intro {
+        display: block;
+        overflow-y: scroll;
+    }
+
+    .intro>.title {
+        width: 100%;
+        height: 20%;
+        text-align: left;
+    }
+
+
+    .intro>.title>img {
+        height: 20vh;
+        object-fit: cover;
+        width: 100%;
+        justify-content: center;
+        box-shadow: 0px 0px 10px black;
+    }
+
+    .intro>.title>.text {
+        position: relative;
+        margin-left: 30px;
+        font-size: 30px;
+        height: 0px;
+    }
+
+    .intro>.title>.text>div {
+        position: relative;
+        bottom: 15vh;
+        margin-left: 30px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white
+    }
+
+    .intro>.summary {
+        width: 100%;
+    }
+
+    .intro>.summary .cards {
+        overflow-y: scroll !important;
+        overflow-x: hidden !important;
+    }
+
+    .intro>.summary .about {
+        align-items: center;
+        display: inline-block;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+   
+
+    .intro>.title>img {
+
+        box-shadow: 0px 0px 0px white !important;
+    }
+}

@@ -1,0 +1,12 @@
+header.visual {
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* header.visual:not(.notScroll),
+header.visual:not(.notScroll)+.wrapContent:before {
+    height: 60vw;
+    max-height: 930px;
+} */
