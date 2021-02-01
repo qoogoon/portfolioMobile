@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolioMobile/static/css/main.dc0e0c83.chunk.css",
-    "main.js": "/portfolioMobile/static/js/main.499cc967.chunk.js",
-    "main.js.map": "/portfolioMobile/static/js/main.499cc967.chunk.js.map",
+    "main.js": "/portfolioMobile/static/js/main.578d65b1.chunk.js",
+    "main.js.map": "/portfolioMobile/static/js/main.578d65b1.chunk.js.map",
     "runtime-main.js": "/portfolioMobile/static/js/runtime-main.607ac2bc.js",
     "runtime-main.js.map": "/portfolioMobile/static/js/runtime-main.607ac2bc.js.map",
     "static/css/2.36234020.chunk.css": "/portfolioMobile/static/css/2.36234020.chunk.css",
-    "static/js/2.9ec3962f.chunk.js": "/portfolioMobile/static/js/2.9ec3962f.chunk.js",
-    "static/js/2.9ec3962f.chunk.js.map": "/portfolioMobile/static/js/2.9ec3962f.chunk.js.map",
+    "static/js/2.c38d0f0f.chunk.js": "/portfolioMobile/static/js/2.c38d0f0f.chunk.js",
+    "static/js/2.c38d0f0f.chunk.js.map": "/portfolioMobile/static/js/2.c38d0f0f.chunk.js.map",
     "static/js/3.a344ab83.chunk.js": "/portfolioMobile/static/js/3.a344ab83.chunk.js",
     "static/js/3.a344ab83.chunk.js.map": "/portfolioMobile/static/js/3.a344ab83.chunk.js.map",
     "index.html": "/portfolioMobile/index.html",
     "static/css/2.36234020.chunk.css.map": "/portfolioMobile/static/css/2.36234020.chunk.css.map",
     "static/css/main.dc0e0c83.chunk.css.map": "/portfolioMobile/static/css/main.dc0e0c83.chunk.css.map",
-    "static/js/2.9ec3962f.chunk.js.LICENSE.txt": "/portfolioMobile/static/js/2.9ec3962f.chunk.js.LICENSE.txt",
+    "static/js/2.c38d0f0f.chunk.js.LICENSE.txt": "/portfolioMobile/static/js/2.c38d0f0f.chunk.js.LICENSE.txt",
     "static/media/001.1efb245b.png": "/portfolioMobile/static/media/001.1efb245b.png",
     "static/media/001.2944ca7f.jpg": "/portfolioMobile/static/media/001.2944ca7f.jpg",
     "static/media/001.600beb5c.jpg": "/portfolioMobile/static/media/001.600beb5c.jpg",
@@ -34,7 +34,6 @@
     "static/media/007.171c7480.png": "/portfolioMobile/static/media/007.171c7480.png",
     "static/media/android.381c55d7.png": "/portfolioMobile/static/media/android.381c55d7.png",
     "static/media/back1.d220a8fb.jpg": "/portfolioMobile/static/media/back1.d220a8fb.jpg",
-    "static/media/back2.15935027.jpg": "/portfolioMobile/static/media/back2.15935027.jpg",
     "static/media/career.8647f74e.png": "/portfolioMobile/static/media/career.8647f74e.png",
     "static/media/intro.94a7f159.png": "/portfolioMobile/static/media/intro.94a7f159.png",
     "static/media/thumb.22ca90c5.png": "/portfolioMobile/static/media/thumb.22ca90c5.png",
@@ -43,8 +42,8 @@
   "entrypoints": [
     "static/js/runtime-main.607ac2bc.js",
     "static/css/2.36234020.chunk.css",
-    "static/js/2.9ec3962f.chunk.js",
+    "static/js/2.c38d0f0f.chunk.js",
     "static/css/main.dc0e0c83.chunk.css",
-    "static/js/main.499cc967.chunk.js"
+    "static/js/main.578d65b1.chunk.js"
   ]
 }
