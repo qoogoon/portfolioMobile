@@ -8,11 +8,11 @@ import { BrowserRouter, Route } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
-      <Route path="/portfolio" exact={true} render={() => <Body mode="webFirst" />} />
-      <Route path="/portfolio/web" exact={true} render={() => <Body mode="webFirst" />} />
-      <Route path="/portfolio/web/only" exact={true} render={() => <Body mode="webOnly" />} />
-      <Route path="/portfolio/mobile" exact={true} render={() => <Body mode="mobileFirst" />} />
-      <Route path="/portfolio/mobile/only" exact={true} render={() => <Body mode="mobileOnly" />} />
+      <Route path="/portfolioMobile" exact={true} render={() => <Body mode="mobileOnly" />} />
+      <Route path="/portfolioMobile/web" exact={true} render={() => <Body mode="webFirst" />} />
+      <Route path="/portfolioMobile/web/only" exact={true} render={() => <Body mode="webOnly" />} />
+      <Route path="/portfolioMobile/mobile" exact={true} render={() => <Body mode="mobileFirst" />} />
+      <Route path="/portfolioMobile/mobile/only" exact={true} render={() => <Body mode="mobileOnly" />} />
     </BrowserRouter>
   )
 }

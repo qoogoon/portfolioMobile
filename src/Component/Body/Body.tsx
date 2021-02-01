@@ -63,6 +63,7 @@ export default function Body(props: Props) {
             mousewheel={true}
             pagination={{ clickable: isMobile }}
             navigation={isMobile}
+            style={{ backgroundColor: "rgb(231, 231, 231)" }}
         >
             {slides}
         </Swiper>)

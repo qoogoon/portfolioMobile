@@ -69,7 +69,7 @@ function WebCareerPage() {
     const [imgMode, setImgMode] = React.useState<"web" | "mobile">("web");
     return (
         <div>
-            <img className={style.background} src={back2} />
+            {/* <img className={style.background} src={back2} /> */}
             <div className={style.Career}>
                 <div className={`${style.layout} ${style.mobile}`}>
                     <div className={style.title} style={{ backgroundColor: "#8884d8" }}>Android</div>

@@ -16,11 +16,11 @@ interface CardItem {
 }
 
 const cards: CardItem[] = [
-    {
-        title: "Web Developer",
-        content: "React, Redux, TypeScript, Nodejs express, ASP.NET",
-        imgSrc: ReactImg
-    },
+    // {
+    //     title: "Web Developer",
+    //     content: "React, Redux, TypeScript, Nodejs express, ASP.NET",
+    //     imgSrc: ReactImg
+    // },
     {
         title: "Android Developer",
         content: "Kotlin, Java, Retrofit2, Firebase",
@@ -41,11 +41,22 @@ const cards: CardItem[] = [
         content: "게임, 웹툰",
         imgSrc: HobbyImg
     },
-    {
-        title: "밀레시안",
-        content: "누렙 13,192 ",
-        imgSrc: MabinogiImg
-    }
+    // {
+    //     title: "재직중",
+    //     content: "유디엠텍",
+    //     imgSrc: HobbyImg
+    // },
+
+    // {
+    //     title: "취미",
+    //     content: "게임, 웹툰",
+    //     imgSrc: HobbyImg
+    // },
+    // {
+    //     title: "밀레시안",
+    //     content: "누렙 13,192 ",
+    //     imgSrc: MabinogiImg
+    // }
 ]
 
 function IntroPage() {
